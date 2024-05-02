@@ -1,0 +1,4 @@
+openai
+Appium-Python-Client
+pillow
+pyyaml
