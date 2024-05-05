@@ -8,7 +8,7 @@ The test case is
 When you add a google account in Passwords & accounts, username is abc@gmail.com, password is 123456. Then you should see an error "Couldn't find your Google Account".
 ```
 
-![](https://images.shangjiaming.top/ai-testing-tool-5x-demo.gif)
+![](./ai-testing-tool-5x-demo.gif)
 
 ## Architecture
 
