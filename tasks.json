@@ -1,0 +1,7 @@
+[
+    {
+        "task": "add_google_account",
+        "details": "Whe you add a google account in Passwords & accounts, username is abc@gmail.com, password is 123456. Then you should see an error \"Couldn't find your Google Account.\"",
+        "skip": false
+    }
+]

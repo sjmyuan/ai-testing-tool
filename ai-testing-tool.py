@@ -386,17 +386,17 @@ def keep_driver_live(driver: webdriver.Remote):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="AI Automation Testing")
-    parser.add_argument("prompt", help="Prompt file for the AI Automation Testing")
-    parser.add_argument("task", help="Task file for the script")
+    parser = argparse.ArgumentParser(description="AI Testing Tool")
+    parser.add_argument("prompt", help="Prompt file")
+    parser.add_argument("task", help="Task file")
     parser.add_argument(
         "--appium",
         default="http://localhost:4723",
         help="Appium server, default is localhost:4723",
     )
-    parser.add_argument("--debug", action="store_true", help="Enable debug mode")
+    parser.add_argument("--debug", action="store_true", help="Enable debug mode, default is false")
     parser.add_argument(
-        "--reports", default="./reports", help="Folder to store reports"
+        "--reports", default="./reports", help="Folder to store the reports, default is ./reports"
     )
 
     args = parser.parse_args()
